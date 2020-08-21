@@ -1,0 +1,25 @@
+{
+    "name": "Alexa Test",
+    "version": "0.4",
+    "slug": "alexa_test",
+    "description": "Alexa integration via AWS SQS.",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "before",
+    "boot": "auto",
+    "options": {
+      "home_assistant_token": null,
+      "aws_access_key": null,
+      "aws_access_secret": null,
+      "aws_region": null,
+      "sqs_queue_url": null,
+      "dynamodb_table": null
+    },
+    "schema": {
+      "home_assistant_token": "str",
+      "aws_access_key": "str",
+      "aws_access_secret": "str",
+      "aws_region": "str",
+      "sqs_queue_url": "url",
+      "dynamodb_table": "str"
+    }
+  }
