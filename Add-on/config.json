@@ -1,7 +1,7 @@
 {
-    "name": "Alexa Test",
+    "name": "ASK2HA",
     "version": "0.4",
-    "slug": "alexa_test",
+    "slug": "ask2ha",
     "description": "Alexa integration via AWS SQS.",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "before",
