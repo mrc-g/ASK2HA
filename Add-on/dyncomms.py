@@ -2,6 +2,7 @@ import boto3
 from time import sleep
 import json
 import time
+from decimal import Decimal
 
 class DynComms:
 
