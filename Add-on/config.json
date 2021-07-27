@@ -4,7 +4,7 @@
     "slug": "ask2ha",
     "description": "Alexa integration via AWS SQS.",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-    "startup": "before",
+    "startup": "services",
     "boot": "auto",
     "options": {
       "home_assistant_token": null,
