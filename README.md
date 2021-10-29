@@ -15,6 +15,8 @@ Remember to change config.py for the lambda function and the configuration of th
 
 ## Other info
 
+The Add-on was used as is for more than 1 year with no issues or maintenance whatsoever (maybe I could check if some dynamoDB record were not erased because of instabilities in the internet connection)
+
 The code works as intended but may contains bugs, use at your own risk.
 
 The free tier of amazon AWS should cover both the lambda function, the SQS queue and the DynamoDB table. 1 month uses about 15% of SQS free tier and less than 0.1% of the other two services.
