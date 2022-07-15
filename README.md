@@ -24,7 +24,7 @@ The setup in general start by following the haaska setup:
 Instead in this setup the point 2 and 3 are slightly changed into point 4 and 6 (you can do the points in any order but you need to add the configuration later for the missing info):
 1) create the Alexa skill as before
 2) create a dynamoDB table in AWS (use "messageId " as primary key for the table)
-3) create a SQS queue in AWS (allow pull request with the maximum time)
+3) create a SQS queue in AWS (set receive message wait time to the maximum that is 20, use a low maximum retention time like 1 minute)
 4) create the lambda function in AWS (but with my code inside) and configure it with the table and the queue info
 5) create an access token for home assistant to access AWS resources (table and queue)
 6) add this app as third party in home assistant and configure it with the table/queue/access info
