@@ -28,7 +28,7 @@ Instead in this setup the point 2 and 3 are slightly changed into point 4 and 6 
 4) create the lambda function in AWS (but with my code inside) and configure it with the table and the queue info
 5) create an access token for home assistant to access AWS resources (table and queue)
 6) add this app as third party in home assistant and configure it with the table/queue/access info
-
+7) remember to update the configuration.yaml as in the haaska wiki
 ## Other info
 
 The Add-on was used as is for more than 1 year with no issues or maintenance whatsoever (maybe I could check if some dynamoDB record were not erased because of instabilities in the internet connection)
