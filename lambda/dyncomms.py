@@ -58,5 +58,5 @@ class DynComms:
 
                 return item
             except KeyError:
-                sleep(0.)
+                sleep(0.05)
         raise
